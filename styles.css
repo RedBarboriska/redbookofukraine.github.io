@@ -1,0 +1,41 @@
+.mainBox{
+    color: #FFFFFF;
+	background-color: #800000;
+}
+ table { 
+    border-spacing: 7px 11px;
+    border-color: black; /* Цвет границы */ 
+    border-style: solid; /* Стиль границы */ 
+    
+    
+   }
+.xy_cell{
+    border: 4px double black;
+    width: 20%;
+    /*border-top: 1px solid white; 
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+    border-left: 1px solid white;*/
+}
+.text_right{
+    text-align: right;
+}
+body{
+    font-family: sans-serif;
+}
+A:link { 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color:#924A3B; 
+   } 
+   A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    /* Цвет ссылки */
+   } 
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
